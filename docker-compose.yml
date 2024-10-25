@@ -1,5 +1,8 @@
 version: '1.0.1'
 
 services:
-  serve_retail:
-    
+  retail-backend:
+    image: retail_springboot:0.0.1
+    ports:
+      - 8085:8085
+  
